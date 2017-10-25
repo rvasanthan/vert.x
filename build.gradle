@@ -21,10 +21,14 @@ compile "io.vertx:vertx-unit:$version"
 
 }
 
-mainClassName = 'com.rvasanthan.vertx.tech.demo.MainVerticle'
+/*mainClassName = 'com.rvasanthan.vertx.tech.demo.MainVerticle'*/
+mainClassName = 'io.vertx.core.Launcher'
 
 shadowJar {
   classifier = 'fat'
+  manifest {
+        attributes 'Main-Verticle': 'com.rvasanthan.vertx.tech.demo.MainVerticle'
+    }
   mergeServiceFiles {
     include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
   }
