@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Main-Verticle: com.rvasanthan.vertx.tech.demo.MainVerticle
 Main-Class: io.vertx.core.Launcher
 
+=======
+Manifest-Version: 1.0
+Main-Verticle: com.rvasanthan.vertx.tech.demo.MainVerticle
+Main-Class: io.vertx.core.Launcher
+
+>>>>>>> 196c62f52cad1f2800248e481379533917104e48
